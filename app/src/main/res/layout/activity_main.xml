@@ -83,6 +83,7 @@ tools:context="com.example.sid.calculator.MainActivity">
             android:layout_height="wrap_content"
             android:background="#ccc"
             android:text="C"
+            android:layout_margin="3dp"
             android:textSize="30sp"
             android:layout_weight="0.5"/>
 
@@ -91,9 +92,8 @@ tools:context="com.example.sid.calculator.MainActivity">
             android:id="@+id/history"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:background="#ccc"
-
+            android:layout_margin="3dp"
             android:text="HISTORY"
             android:textSize="30sp"
             android:layout_weight="0.5"/>
@@ -110,6 +110,8 @@ tools:context="com.example.sid.calculator.MainActivity">
             android:id="@+id/buttonSeven"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
             android:layout_weight="0.25"
             android:background="#ddd"
             android:minHeight="80dp"
@@ -122,6 +124,7 @@ tools:context="com.example.sid.calculator.MainActivity">
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
             android:layout_weight="0.25"
             android:background="#ddd"
             android:minHeight="80dp"
@@ -327,11 +330,12 @@ tools:context="com.example.sid.calculator.MainActivity">
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
             android:layout_weight="1"
-            android:background="#ddd"
+            android:background="#ccc"
             android:minHeight="80dp"
             android:text="/"
-            android:textColor="#333"
-            android:textSize="30sp" />
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold"  />
 
         <Button
             android:id="@+id/buttonEqual"
@@ -341,7 +345,7 @@ tools:context="com.example.sid.calculator.MainActivity">
             android:layout_marginRight="2dp"
 
             android:layout_weight="1"
-            android:background="#666"
+            android:background="#ff8800"
             android:minHeight="80dp"
             android:text="="
             android:textColor="#fff"
